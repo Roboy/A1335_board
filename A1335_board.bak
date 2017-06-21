@@ -1,0 +1,205 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:custom
+LIBS:A1335_board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TEST_1P J2
+U 1 1 5949AA76
+P 2400 2950
+F 0 "J2" H 2400 3220 50  0000 C CNN
+F 1 "TEST_1P" H 2400 3150 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 2600 2950 50  0001 C CNN
+F 3 "" H 2600 2950 50  0001 C CNN
+	1    2400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 5949AADB
+P 5000 1950
+F 0 "#FLG01" H 5000 2025 50  0001 C CNN
+F 1 "PWR_FLAG" H 5000 2100 50  0000 C CNN
+F 2 "" H 5000 1950 50  0001 C CNN
+F 3 "" H 5000 1950 50  0001 C CNN
+	1    5000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR02
+U 1 1 5949AAF1
+P 4700 1950
+F 0 "#PWR02" H 4700 1800 50  0001 C CNN
+F 1 "+5V" H 4700 2090 50  0000 C CNN
+F 2 "" H 4700 1950 50  0001 C CNN
+F 3 "" H 4700 1950 50  0001 C CNN
+	1    4700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5949AB07
+P 3800 3850
+F 0 "#PWR03" H 3800 3600 50  0001 C CNN
+F 1 "GND" H 3800 3700 50  0000 C CNN
+F 2 "" H 3800 3850 50  0001 C CNN
+F 3 "" H 3800 3850 50  0001 C CNN
+	1    3800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Generic_TSSOP-14 U1
+U 1 1 594A7FD0
+P 4550 3000
+F 0 "U1" H 4550 2200 60  0000 C CNN
+F 1 "Generic_TSSOP-14" H 4550 3000 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 4550 3000 60  0001 C CNN
+F 3 "" H 4550 3000 60  0001 C CNN
+	1    4550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J1
+U 1 1 594A81BD
+P 2350 3350
+F 0 "J1" H 2350 3620 50  0000 C CNN
+F 1 "TEST_1P" H 2350 3550 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 2550 3350 50  0001 C CNN
+F 3 "" H 2550 3350 50  0001 C CNN
+	1    2350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J3
+U 1 1 594A81EA
+P 2450 3600
+F 0 "J3" H 2450 3870 50  0000 C CNN
+F 1 "TEST_1P" H 2450 3800 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 2650 3600 50  0001 C CNN
+F 3 "" H 2650 3600 50  0001 C CNN
+	1    2450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J4
+U 1 1 594A8210
+P 6200 2400
+F 0 "J4" H 6200 2670 50  0000 C CNN
+F 1 "TEST_1P" H 6200 2600 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 6400 2400 50  0001 C CNN
+F 3 "" H 6400 2400 50  0001 C CNN
+	1    6200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J5
+U 1 1 594A823F
+P 6300 2900
+F 0 "J5" H 6300 3170 50  0000 C CNN
+F 1 "TEST_1P" H 6300 3100 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 6500 2900 50  0001 C CNN
+F 3 "" H 6500 2900 50  0001 C CNN
+	1    6300 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2950 3150 2950
+Wire Wire Line
+	3150 2950 3150 2400
+Wire Wire Line
+	3150 2400 3850 2400
+Wire Wire Line
+	2350 3350 3400 3350
+Wire Wire Line
+	3400 3350 3400 2600
+Wire Wire Line
+	3400 2600 3850 2600
+Wire Wire Line
+	2450 3600 3700 3600
+Wire Wire Line
+	3700 3600 3700 2800
+Wire Wire Line
+	3700 2800 3850 2800
+Wire Wire Line
+	3800 3850 3800 3600
+Wire Wire Line
+	3800 3600 3850 3600
+Wire Wire Line
+	6300 2900 5350 2900
+Wire Wire Line
+	5350 2900 5350 3000
+Wire Wire Line
+	5350 3000 5250 3000
+Wire Wire Line
+	6200 2400 5350 2400
+Wire Wire Line
+	5350 2400 5350 2600
+Wire Wire Line
+	5350 2600 5250 2600
+Wire Wire Line
+	4700 1950 4700 2100
+Wire Wire Line
+	4700 2100 5250 2100
+Wire Wire Line
+	5250 2100 5250 2400
+Wire Wire Line
+	5000 1950 5000 2100
+Connection ~ 5000 2100
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 594A85EA
+P 4100 3900
+F 0 "#FLG04" H 4100 3975 50  0001 C CNN
+F 1 "PWR_FLAG" H 4100 4050 50  0000 C CNN
+F 2 "" H 4100 3900 50  0001 C CNN
+F 3 "" H 4100 3900 50  0001 C CNN
+	1    4100 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 3900 4100 3750
+Wire Wire Line
+	4100 3750 3800 3750
+Connection ~ 3800 3750
+$EndSCHEMATC
