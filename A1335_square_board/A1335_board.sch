@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:custom
+EESchema Schematic File Version 4
 LIBS:A1335_board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TEST_1P J2
+L A1335_board-rescue:TEST_1P J2
 U 1 1 5949AA76
 P 5650 3200
 F 0 "J2" H 5650 3470 50  0000 C CNN
@@ -56,7 +26,7 @@ F 3 "" H 5850 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PWR_FLAG #FLG01
+L A1335_board-rescue:PWR_FLAG #FLG01
 U 1 1 5949AADB
 P 3050 1900
 F 0 "#FLG01" H 3050 1975 50  0001 C CNN
@@ -67,7 +37,7 @@ F 3 "" H 3050 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR02
+L A1335_board-rescue:+5V #PWR02
 U 1 1 5949AAF1
 P 2750 1900
 F 0 "#PWR02" H 2750 1750 50  0001 C CNN
@@ -78,7 +48,7 @@ F 3 "" H 2750 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L A1335_board-rescue:GND #PWR03
 U 1 1 5949AB07
 P 4450 4250
 F 0 "#PWR03" H 4450 4000 50  0001 C CNN
@@ -89,7 +59,7 @@ F 3 "" H 4450 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Generic_TSSOP-14 U1
+L A1335_board-rescue:Generic_TSSOP-14 U1
 U 1 1 594A7FD0
 P 4550 3000
 F 0 "U1" H 4550 2200 60  0000 C CNN
@@ -100,7 +70,7 @@ F 3 "" H 4550 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P J1
+L A1335_board-rescue:TEST_1P J1
 U 1 1 594A81BD
 P 2400 2050
 F 0 "J1" H 2400 2320 50  0000 C CNN
@@ -111,7 +81,7 @@ F 3 "" H 2600 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P J3
+L A1335_board-rescue:TEST_1P J3
 U 1 1 594A81EA
 P 5650 3000
 F 0 "J3" H 5650 3270 50  0000 C CNN
@@ -122,7 +92,7 @@ F 3 "" H 5850 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P J4
+L A1335_board-rescue:TEST_1P J4
 U 1 1 594A8210
 P 5650 3400
 F 0 "J4" H 5650 3670 50  0000 C CNN
@@ -133,7 +103,7 @@ F 3 "" H 5850 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P J5
+L A1335_board-rescue:TEST_1P J5
 U 1 1 594A823F
 P 5100 4200
 F 0 "J5" H 5100 4470 50  0000 C CNN
@@ -144,7 +114,7 @@ F 3 "" H 5300 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG04
+L A1335_board-rescue:PWR_FLAG #FLG04
 U 1 1 594A85EA
 P 4750 4300
 F 0 "#FLG04" H 4750 4375 50  0001 C CNN
@@ -155,7 +125,7 @@ F 3 "" H 4750 4300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C2
+L A1335_board-rescue:C C2
 U 1 1 594F23C2
 P 3400 2800
 F 0 "C2" H 3425 2900 50  0000 L CNN
@@ -166,7 +136,7 @@ F 3 "" H 3400 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L A1335_board-rescue:C C1
 U 1 1 594F29FA
 P 3050 3400
 F 0 "C1" H 3075 3500 50  0000 L CNN
@@ -177,7 +147,7 @@ F 3 "" H 3050 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS3 J6
+L A1335_board-rescue:GS3 J6
 U 1 1 594F2E78
 P 5900 2400
 F 0 "J6" H 5950 2600 50  0000 C CNN
@@ -188,7 +158,7 @@ F 3 "" H 5900 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J7
+L A1335_board-rescue:GS3 J7
 U 1 1 594F2F74
 P 6400 2400
 F 0 "J7" H 6450 2600 50  0000 C CNN
@@ -199,23 +169,23 @@ F 3 "" H 6400 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4450 4250 4450 4000
+	4450 4250 4450 4150
 Wire Wire Line
-	3050 3600 3850 3600
+	3050 3600 3400 3600
 Wire Wire Line
 	5250 3000 5650 3000
 Wire Wire Line
 	2750 1900 2750 2050
 Wire Wire Line
-	3050 1900 3050 3250
+	3050 1900 3050 2050
 Connection ~ 3050 2050
 Wire Wire Line
 	4750 4300 4750 4150
 Wire Wire Line
-	4450 4150 5100 4150
+	4450 4150 4750 4150
 Connection ~ 4450 4150
 Wire Wire Line
-	3800 4000 5250 4000
+	3800 4000 4450 4000
 Wire Wire Line
 	3800 4000 3800 3600
 Wire Wire Line
@@ -223,13 +193,13 @@ Wire Wire Line
 Wire Wire Line
 	3850 2400 3650 2400
 Wire Wire Line
-	3650 2400 3650 3600
+	3650 2400 3650 2800
 Connection ~ 3800 3600
 Wire Wire Line
 	3850 2800 3650 2800
 Connection ~ 3650 2800
 Wire Wire Line
-	3400 2050 3400 2650
+	3400 2050 3400 2600
 Wire Wire Line
 	3400 2600 3850 2600
 Wire Wire Line
@@ -249,7 +219,7 @@ Connection ~ 3400 3600
 Wire Wire Line
 	5250 2400 5500 2400
 Wire Wire Line
-	5500 2200 5500 3600
+	5500 2200 5500 2400
 Wire Wire Line
 	5500 3600 5250 3600
 Wire Wire Line
@@ -272,14 +242,42 @@ Connection ~ 5800 2050
 Wire Wire Line
 	6000 2250 6000 2200
 Wire Wire Line
-	5500 2200 6500 2200
+	5500 2200 6000 2200
 Connection ~ 5500 2400
 Wire Wire Line
 	6500 2200 6500 2250
 Connection ~ 6000 2200
 Wire Wire Line
-	2400 2050 3050 2050
+	2400 2050 2750 2050
 Wire Wire Line
-	3400 2050 6300 2050
+	3400 2050 5800 2050
 Connection ~ 3400 2600
+Wire Wire Line
+	3050 2050 3050 3200
+Wire Wire Line
+	4450 4150 4450 4000
+Wire Wire Line
+	3800 3600 3850 3600
+Wire Wire Line
+	3650 2800 3650 3600
+Wire Wire Line
+	3650 3600 3800 3600
+Wire Wire Line
+	2750 2050 3050 2050
+Wire Wire Line
+	4450 4000 5250 4000
+Wire Wire Line
+	4750 4150 5100 4150
+Wire Wire Line
+	3050 3200 3050 3250
+Wire Wire Line
+	3400 3600 3650 3600
+Wire Wire Line
+	5800 2050 6300 2050
+Wire Wire Line
+	5500 2400 5500 3600
+Wire Wire Line
+	6000 2200 6500 2200
+Wire Wire Line
+	3400 2600 3400 2650
 $EndSCHEMATC

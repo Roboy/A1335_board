@@ -59,7 +59,7 @@ F 3 "~" H 3900 3100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L custom:A1335LLETR-T U1
+L A1335_long_I2C-rescue:A1335LLETR-T-custom U1
 U 1 1 5C001C2F
 P 5150 2850
 F 0 "U1" H 5150 3415 50  0000 C CNN

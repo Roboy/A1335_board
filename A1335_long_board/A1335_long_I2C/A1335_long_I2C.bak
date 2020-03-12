@@ -228,17 +228,6 @@ F 3 "~" H 9000 2900 50  0001 C CNN
 $EndComp
 NoConn ~ 5750 3050
 $Comp
-L power:+5V #PWR0105
-U 1 1 5C003165
-P 6400 2950
-F 0 "#PWR0105" H 6400 2800 50  0001 C CNN
-F 1 "+5V" V 6415 3078 50  0000 L CNN
-F 2 "" H 6400 2950 50  0001 C CNN
-F 3 "" H 6400 2950 50  0001 C CNN
-	1    6400 2950
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0106
 U 1 1 5C0032FB
 P 6200 3450
@@ -443,4 +432,8 @@ Wire Wire Line
 Connection ~ 6850 1800
 Wire Wire Line
 	6850 1800 6850 1850
+Text Label 4400 2650 0    50   ~ 0
+BYP
+Text Label 6400 2950 0    50   ~ 0
+BYP
 $EndSCHEMATC
